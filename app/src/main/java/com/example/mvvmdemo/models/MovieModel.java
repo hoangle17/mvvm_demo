@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class MovieModel implements Parcelable {
-    //test git
+    //comment test git
     private String title;
     private String poster_path;
     private String release_date;
