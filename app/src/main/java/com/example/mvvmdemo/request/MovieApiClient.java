@@ -12,6 +12,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
 public class MovieApiClient {
+    //change demo 2.1
     //Live data
     private MutableLiveData<List<MovieModel>> mMovies;
     private static MovieApiClient instance;
