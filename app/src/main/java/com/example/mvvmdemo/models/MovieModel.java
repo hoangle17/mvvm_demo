@@ -5,6 +5,7 @@ import android.os.Parcelable;
 
 public class MovieModel implements Parcelable {
     //comment test demo 2
+    //change demo 2
     private String title;
     private String poster_path;
     private String release_date;
