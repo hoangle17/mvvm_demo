@@ -1,5 +1,7 @@
 package com.example.mvvmdemo.request;
 
+import android.util.Log;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
@@ -16,10 +18,14 @@ public class MovieApiClient {
     //Live data
     private MutableLiveData<List<MovieModel>> mMovies;
     private static MovieApiClient instance;
+    private static String demo;
+    private static String demo2 = "2";
 
     public static MovieApiClient getInstance() {
         if (instance == null) {
             instance = new MovieApiClient();
+            //demo git
+            Log.d("demo", demo2);
         }
         return instance;
     }
