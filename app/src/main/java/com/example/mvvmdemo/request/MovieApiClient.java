@@ -19,13 +19,13 @@ public class MovieApiClient {
     private MutableLiveData<List<MovieModel>> mMovies;
     private static MovieApiClient instance;
     private static String demo;
-    private static String demo2 = "2";
+    private static String demo1 = "2";
 
     public static MovieApiClient getInstance() {
         if (instance == null) {
             instance = new MovieApiClient();
             //demo git
-            Log.d("demo", demo2);
+            Log.d("demo", demo1);
         }
         return instance;
     }
