@@ -16,7 +16,8 @@ public class MovieApiClient {
     //Live data
     private MutableLiveData<List<MovieModel>> mMovies;
     private static MovieApiClient instance;
-
+    private static String demo;
+    private static String demo2;
     public static MovieApiClient getInstance() {
         if (instance == null) {
             instance = new MovieApiClient();
